@@ -110,8 +110,13 @@
       <DependentUpon>201907150724127_InitDatabase.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\KhachHang.cs" />
+    <Compile Include="Models\Nha.cs" />
+    <Compile Include="Models\Phong.cs" />
     <Compile Include="Models\QuanHuyen.cs" />
     <Compile Include="Models\QuanLyNhaTroDbContext.cs" />
+    <Compile Include="Models\QuocTich.cs" />
+    <Compile Include="Models\TienNghi.cs" />
     <Compile Include="Models\TinhTP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
