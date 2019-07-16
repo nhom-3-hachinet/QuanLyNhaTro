@@ -71,8 +71,8 @@ C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Web
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Webpages.Razor.xml
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Helpers.xml
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Mvc.xml
-C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.InitDatabase.resources
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.Cache
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
+C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache

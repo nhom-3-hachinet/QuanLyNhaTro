@@ -4,10 +4,24 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link href="~/Content/NguoiDungLayoutCss/style.css" rel="stylesheet" />
+    <link href="~/Content/NguoiDungLayoutCss/coin-slider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="~/Scripts/cufon-yui.js"></script>
+    <script src="~/Scripts/cufon-quicksand.js"></script>
+    <script src="~/Scripts/jquery-1.4.2.min.js"></script>
+    <script src="~/Scripts/script.js"></script>
+    <script src="~/Scripts/coin-slider.min.js"></script>
+    
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <div id="Toantrang">
+        <div id="Dautrang">
+            <div id="Dienthoai">
+                <i class="fa fa-phone"></i>
+                (03) 853-888
+            </div>
+        </div>
         <div class="main">
             <div class="header">
                 <div class="header_resize">
@@ -25,7 +39,10 @@
                     </div>
                     <div class="clr"></div>
                     <div class="slider">
-                        <div id="coin-slider"> <a href="#"><img src="images/slide1.jpg" width="935" height="293" alt="" /> </a> <a href="#"><img src="images/slide2.jpg" width="935" height="293" alt="" /> </a> <a href="#"><img src="images/slide3.jpg" width="935" height="293" alt="" /> </a> </div>
+                        <div id="coin-slider"><a href="#">
+                            <img src="~/Content/images/slide1.jpg" width="935" height="293" alt="" /> </a> <a href="#">
+                            <img src="~/Content/images/slide2.jpg" width="935" height="293" alt="" /> </a> <a href="#">
+                            <img src="~/Content/images/slide3.jpg" width="935" height="293" alt="" /> </a> </div>
                         <div class="clr"></div>
                     </div>
                     <div class="clr"></div>
@@ -34,11 +51,12 @@
             <div class="content">
                 <div class="content_resize">
                     <div class="mainbar">
+                        @RenderBody()
                         <div class="article">
                             <h2><span>Excellent Solution</span> For Your Business</h2>
                             <p class="infopost">Posted on <span class="date">11 sep 2018</span> by <a href="#">Admin</a> &nbsp;&nbsp;|&nbsp;&nbsp; Filed under <a href="#">templates</a>, <a href="#">internet</a></p>
                             <div class="clr"></div>
-                            <div class="img"><img src="images/img1.jpg" width="179" height="215" alt="" class="fl" /><a href="#" class="com"><span>11</span> Com</a></div>
+                            <div class="img"><img src="~/Content/images/img1.jpg" width="179" height="215" alt="" class="fl" /><a href="#" class="com"><span>11</span> Com</a></div>
                             <div class="post_content">
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. <a href="#">Suspendisse bibendum. Cras id urna.</a> Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo.</p>
                                 <p><strong>Aenean consequat porttitor adipiscing. Nam pellentesque justo ut tortor congue lobortis. Donec venenatis sagittis fringilla.</strong> Etiam nec libero magna, et dictum velit. Proin mauris mauris, mattis eu elementum eget, commodo in nulla. Mauris posuere venenatis pretium. Maecenas a dui sed lorem aliquam dictum. Nunc urna leo, imperdiet eu bibendum ac, pretium ac massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Quisque condimentum luctus ullamcorper.</p>
