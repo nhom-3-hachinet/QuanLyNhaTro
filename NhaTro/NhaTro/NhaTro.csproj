@@ -99,16 +99,57 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\NguoiDungLayoutCss\coin-slider.css" />
+    <Content Include="Content\NguoiDungLayoutCss\NguoiDungLayoutCss.css" />
+    <Content Include="Content\NguoiDungLayoutCss\style.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Content\images\comment.gif" />
+    <Content Include="Content\images\gal1.jpg" />
+    <Content Include="Content\images\gal2.jpg" />
+    <Content Include="Content\images\gal3.jpg" />
+    <Content Include="Content\images\gal4.jpg" />
+    <Content Include="Content\images\gal5.jpg" />
+    <Content Include="Content\images\gal6.jpg" />
+    <Content Include="Content\images\img1.jpg" />
+    <Content Include="Content\images\img2.jpg" />
+    <Content Include="Content\images\li.gif" />
+    <Content Include="Content\images\main_bg.gif" />
+    <Content Include="Content\images\menu_a.png" />
+    <Content Include="Content\images\menu_p.png" />
+    <Content Include="Content\images\overlay.png" />
+    <Content Include="Content\images\page_a.gif" />
+    <Content Include="Content\images\search.gif" />
+    <Content Include="Content\images\search_bg.gif" />
+    <Content Include="Content\images\slide1.jpg" />
+    <Content Include="Content\images\slide2.jpg" />
+    <Content Include="Content\images\slide3.jpg" />
+    <Content Include="Content\images\slide_a.png" />
+    <Content Include="Content\images\slide_p.png" />
+    <Content Include="Content\images\spacer.gif" />
+    <Content Include="Content\images\submit.gif" />
+    <Content Include="Content\images\ta-mark.png" />
+    <Content Include="Content\images\userpic.gif" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\coin-slider.min.js" />
+    <Content Include="Scripts\cufon-quicksand.js" />
+    <Content Include="Scripts\cufon-yui.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.4.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Scripts\script.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -131,10 +172,17 @@
     <Compile Include="Models\TienNghi.cs" />
     <Compile Include="Models\TinhTP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -174,7 +222,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49988</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49988/</IISUrl>
+          <IISUrl>http://localhost:3086/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
