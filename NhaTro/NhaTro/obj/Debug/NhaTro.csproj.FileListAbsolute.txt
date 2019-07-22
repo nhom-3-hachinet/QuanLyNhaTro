@@ -76,3 +76,4 @@ C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.c
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.AlterDB.resources

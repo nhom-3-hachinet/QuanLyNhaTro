@@ -17,5 +17,8 @@ namespace NhaTro.Models
         public string MaTTP { get; set; }
 
         public virtual TinhTP TinhTP { get; set; }
+        public virtual ICollection<Phong> Phongs { get; set; }
+
+        public virtual ICollection<Nha> Nhas { get; set; }
     }
 }
