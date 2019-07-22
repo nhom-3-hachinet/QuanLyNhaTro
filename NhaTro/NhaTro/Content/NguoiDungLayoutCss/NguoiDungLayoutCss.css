@@ -6,5 +6,11 @@
    background-color: #fff;
   background: #303030;
   text-align: center;
-  margin-bottom: 1em;
+}
+#Toantrang{
+    width:100%;
+    position:relative;
+}
+.menu_nav ul li.DangnhapDangky{
+    float:right;
 }

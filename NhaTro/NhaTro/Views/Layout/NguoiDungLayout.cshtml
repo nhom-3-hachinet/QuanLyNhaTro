@@ -6,6 +6,8 @@
     <title>@ViewBag.Title</title>
     <link href="~/Content/NguoiDungLayoutCss/style.css" rel="stylesheet" />
     <link href="~/Content/NguoiDungLayoutCss/coin-slider.css" rel="stylesheet" />
+    <link href="~/Content/NguoiDungLayoutCss/style.css" rel="stylesheet" />
+    <link href="~/Content/NguoiDungLayoutCss/NguoiDungLayoutCss.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="~/Scripts/cufon-yui.js"></script>
     <script src="~/Scripts/cufon-quicksand.js"></script>
@@ -15,163 +17,260 @@
     
 </head>
 <body>
-    <div id="Toantrang">
-        <div id="Dautrang">
-            <div id="Dienthoai">
-                <i class="fa fa-phone"></i>
-                (03) 853-888
-            </div>
-        </div>
-        <div class="main">
-            <div class="header">
-                <div class="header_resize">
-                    <div class="logo">
-                        <h1><a href="index.html">Quadro<span>way</span> <small>Company Slogan Here</small></a></h1>
-                    </div>
-                    <div class="menu_nav">
+    @RenderBody()
+    <div id="main_container">
+        <div id="header">
+            <div id="logo"> <a href="#"><img src="images/logo.gif" width="147" height="78" alt="" border="0" /></a> </div>
+            <div class="banner_adds"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="admin.html">
+                            Admin
+                            <!--[if IE 7]><!-->
+                        </a>
+                        <!--<![endif]-->
+                        <!--[if lte IE 6]><table><tr><td><![endif]-->
                         <ul>
-                            <li class="active"><a href="index.html"><span>Home Page</span></a></li>
-                            <li><a href="support.html"><span>Support</span></a></li>
-                            <li><a href="about.html"><span>About Us</span></a></li>
-                            <li><a href="blog.html"><span>Blog</span></a></li>
-                            <li><a href="contact.html"><span>Contact Us</span></a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
                         </ul>
-                    </div>
-                    <div class="clr"></div>
-                    <div class="slider">
-                        <div id="coin-slider"><a href="#">
-                            <img src="~/Content/images/slide1.jpg" width="935" height="293" alt="" /> </a> <a href="#">
-                            <img src="~/Content/images/slide2.jpg" width="935" height="293" alt="" /> </a> <a href="#">
-                            <img src="~/Content/images/slide3.jpg" width="935" height="293" alt="" /> </a> </div>
-                        <div class="clr"></div>
-                    </div>
-                    <div class="clr"></div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="content_resize">
-                    <div class="mainbar">
-                        @RenderBody()
-                        <div class="article">
-                            <h2><span>Excellent Solution</span> For Your Business</h2>
-                            <p class="infopost">Posted on <span class="date">11 sep 2018</span> by <a href="#">Admin</a> &nbsp;&nbsp;|&nbsp;&nbsp; Filed under <a href="#">templates</a>, <a href="#">internet</a></p>
-                            <div class="clr"></div>
-                            <div class="img"><img src="~/Content/images/img1.jpg" width="179" height="215" alt="" class="fl" /><a href="#" class="com"><span>11</span> Com</a></div>
-                            <div class="post_content">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. <a href="#">Suspendisse bibendum. Cras id urna.</a> Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo.</p>
-                                <p><strong>Aenean consequat porttitor adipiscing. Nam pellentesque justo ut tortor congue lobortis. Donec venenatis sagittis fringilla.</strong> Etiam nec libero magna, et dictum velit. Proin mauris mauris, mattis eu elementum eget, commodo in nulla. Mauris posuere venenatis pretium. Maecenas a dui sed lorem aliquam dictum. Nunc urna leo, imperdiet eu bibendum ac, pretium ac massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Quisque condimentum luctus ullamcorper.</p>
-                                <p class="spec"><a href="#" class="rm">Read more &raquo;</a></p>
-                            </div>
-                            <div class="clr"></div>
-                        </div>
-                        <div class="article">
-                            <h2><span>We'll Make Sure Template</span> Works For You</h2>
-                            <p class="infopost">Posted on <span class="date">29 aug 2016</span> by <a href="#">Admin</a> &nbsp;&nbsp;|&nbsp;&nbsp; Filed under <a href="#">templates</a>, <a href="#">internet</a></p>
-                            <div class="clr"></div>
-                            <div class="img"><img src="images/img2.jpg" width="179" height="215" alt="" class="fl" /><a href="#" class="com"><span>7</span> Com</a></div>
-                            <div class="post_content">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. <a href="#">Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo.</a> Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam.</p>
-                                <p><strong>Aenean consequat porttitor adipiscing. Nam pellentesque justo ut tortor congue lobortis. Donec venenatis sagittis fringilla.</strong> Etiam nec libero magna, et dictum velit. Proin mauris mauris, mattis eu elementum eget, commodo in nulla. Mauris posuere venenatis pretium. Maecenas a dui sed lorem aliquam dictum. Nunc urna leo, imperdiet eu bibendum ac, pretium ac massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Quisque condimentum luctus ullamcorper.</p>
-                                <p class="spec"><a href="#" class="rm">Read more &raquo;</a></p>
-                            </div>
-                            <div class="clr"></div>
-                        </div>
-                        <p class="pages"><small>Page 1 of 2</small> <span>1</span> <a href="#">2</a> <a href="#">&raquo;</a></p>
-                    </div>
-                    <div class="sidebar">
-                        <div class="searchform">
-                            <form id="formsearch" name="formsearch" method="post" action="#">
-                                <span>
-                                    <input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Search our ste:" type="text" />
-                                </span>
-                                <input name="button_search" src="images/search.gif" class="button_search" type="image" />
-                            </form>
-                        </div>
-                        <div class="clr"></div>
-                        <div class="gadget">
-                            <h2 class="star"><span>Sidebar</span> Menu</h2>
-                            <div class="clr"></div>
-                            <ul class="sb_menu">
-                                <li><a href="#">&raquo; Home</a></li>
-                                <li><a href="#">&raquo; TemplateInfo</a></li>
-                                <li><a href="#">&raquo; Style Demo</a></li>
-                                <li><a href="#">&raquo; Blog</a></li>
-                                <li><a href="#">&raquo; Archives</a></li>
-                                <li><a href="#">&raquo; Web Templates</a></li>
-                            </ul>
-                        </div>
-                        <div class="gadget">
-                            <h2 class="star"><span>Sponsors</span></h2>
-                            <div class="clr"></div>
-                            <ul class="ex_menu">
-                                <li>
-                                    <a href="http://www.dreamtemplate.com/">DreamTemplate</a><br />
-                                    Over 6,000+ Premium Web Templates
-                                </li>
-                                <li>
-                                    <a href="http://www.templatesold.com/">TemplateSOLD</a><br />
-                                    Premium WordPress &amp; Joomla Themes
-                                </li>
-                                <li>
-                                    <a href="http://www.imhosted.com/">ImHosted.com</a><br />
-                                    Affordable Web Hosting Provider
-                                </li>
-                                <li>
-                                    <a href="http://www.megastockphotos.com/">MegaStockPhotos</a><br />
-                                    Unlimited Amazing Stock Photos
-                                </li>
-                                <li>
-                                    <a href="http://www.evrsoft.com/">Evrsoft</a><br />
-                                    Website Builder Software &amp; Tools
-                                </li>
-                                <li>
-                                    <a href="http://www.csshub.com/">CSS Hub</a><br />
-                                    Premium CSS Templates
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clr"></div>
-                </div>
-            </div>
-            <div class="fbg">
-                <div class="fbg_resize">
-                    <div class="col c1">
-                        <h2><span>Image</span> Gallery</h2>
-                        <a href="#"><img src="images/gal1.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal2.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal3.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal4.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal5.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal6.jpg" width="75" height="75" alt="" class="gal" /></a>
-                    </div>
-                    <div class="col c2">
-                        <h2><span>Services</span> Overview</h2>
-                        <p>Curabitur sed urna id nunc pulvinar semper. Nunc sit amet tortor sit amet lacus sagittis posuere cursus vitae nunc.Etiam venenatis, turpis at eleifend porta, nisl nulla bibendum justo.</p>
-                        <ul class="fbg_ul">
-                            <li><a href="#">Lorem ipsum dolor labore et dolore.</a></li>
-                            <li><a href="#">Excepteur officia deserunt.</a></li>
-                            <li><a href="#">Integer tellus ipsum tempor sed.</a></li>
+                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    <li>
+                        <a href="login.html">
+                            Login
+                            <!--[if IE 7]><!-->
+                        </a>
+                        <!--<![endif]-->
+                        <!--[if lte IE 6]><table><tr><td><![endif]-->
+                        <ul>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
                         </ul>
-                    </div>
-                    <div class="col c3">
-                        <h2><span>Contact</span> Us</h2>
-                        <p>Nullam quam lorem, tristique non vestibulum nec, consectetur in risus. Aliquam a quam vel leo gravida gravida eu porttitor dui.</p>
-                        <p class="contact_info">
-                            <span>Address:</span> 1458 TemplateAccess, USA<br />
-                            <span>Telephone:</span> +123-1234-5678<br />
-                            <span>FAX:</span> +458-4578<br />
-                            <span>Others:</span> +301 - 0125 - 01258<br />
-                            <span>E-mail:</span> <a href="#">mail@yoursitename.com</a>
-                        </p>
-                    </div>
-                    <div class="clr"></div>
-                </div>
-            </div>
-            <div class="footer">
-                <div class="footer_resize">
-                    <p class="lf">&copy; Copyright <a href="#">MyWebSite</a>.</p>
-                    <p class="rf">Design by Dream <a href="http://www.dreamtemplate.com/">Web Templates</a></p>
-                    <div style="clear:both;"></div>
-                </div>
+                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    <li>
+                        <a href="list.html">
+                            Renting Homes
+                            <!--[if IE 7]><!-->
+                        </a>
+                        <!--<![endif]-->
+                        <!--[if lte IE 6]><table><tr><td><![endif]-->
+                        <ul>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="http://all-free-download.com/free-website-templates/">Lorem ipsum dolor sit amet</a></li>
+                        </ul>
+                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    <li><a href="http://all-free-download.com/free-website-templates/">About Us </a></li>
+                    <li><a href="http://all-free-download.com/free-website-templates/">Customers</a></li>
+                    <li><a href="http://all-free-download.com/free-website-templates/">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
         </div>
-        <div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>
+        <div id="main_content">
+            <div class="column1">
+                <div class="left_box">
+                    <div class="top_left_box"> </div>
+                    <div class="center_left_box">
+                        <div class="box_title"><span>Find</span> your place:</div>
+                        <div class="form">
+                            <div class="form_row">
+                                <label class="left">City: </label>
+                                <input type="text" class="form_input" />
+                            </div>
+                            <div class="form_row">
+                                <label class="left">State: </label>
+                                <input type="text" class="form_input" />
+                            </div>
+                            <div class="form_row">
+                                <label class="left">Price: </label>
+                                <input type="text" class="form_input" value="minimum" />
+                            </div>
+                            <div class="form_row">
+                                <label class="left">To: </label>
+                                <input type="text" class="form_input" value="maximum" />
+                            </div>
+                            <div class="form_row">
+                                <label class="left">Rooms: </label>
+                                <input type="text" class="form_input" />
+                            </div>
+                            <div class="form_row">
+                                <label class="left_long">Looking for to:</label>
+                            </div>
+                            <div class="form_row">
+                                <input type="radio" name="reason" />
+                                sell home
+                            </div>
+                            <div class="form_row">
+                                <input type="radio" name="reason" />
+                                buy home
+                            </div>
+                            <div class="form_row">
+                                <input type="radio" name="reason" />
+                                rent home
+                            </div>
+                            <div style="float:right; padding:10px 25px 0 0;">
+                                <input type="image" src="images/find.gif" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom_left_box"> </div>
+                </div>
+                <div class="left_box">
+                    <div class="top_left_box"> </div>
+                    <div class="center_left_box">
+                        <div class="box_title"><span>Join</span> our newsletter:</div>
+                        <div class="form">
+                            <div class="form_row">
+                                <label class="left">Email: </label>
+                                <input type="text" class="form_input" />
+                            </div>
+                            <div style="float:right; padding:10px 25px 0 0;">
+                                <input type="image" src="images/join.gif" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom_left_box"> </div>
+                </div>
+                <div class="left_box">
+                    <div class="top_left_box"> </div>
+                    <div class="center_left_box">
+                        <div class="box_title"><span>Contact</span> information:</div>
+                        <div class="form">
+                            <div class="form_row">
+                                <img src="images/contact_envelope.gif" width="50" height="47" border="0" class="img_right" alt="" />
+                                <div class="contact_information">
+                                    Email: info@comapnyname.com<br />
+                                    Điện thoại: 0234 789 90<br />
+                                    Địa chỉ: Nguyễn Thị Minh Khai
+                                    <span>www.nhatro.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom_left_box"> </div>
+                </div>
+            </div>
+            <!-- end of column one -->
+            <div class="column2">
+                <div class="main_text_box">
+                    <h2>About Us</h2>
+                    <p>
+                        &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />
+                        <br />
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;
+                    </p>
+                </div>
+                <div class="main_text_box">
+                    <h2>Request a proposal</h2>
+                    <div class="proposal">
+                        <p class="proposal_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of column two -->
+            <div class="column3">
+                <div class="small_title">Latest offers</div>
+                <div class="offer_box">
+                    <a href="http://all-free-download.com/free-website-templates/"><img src="images/p1.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
+                    <div class="offer_info">
+                        <span>For Sale 150 000 $</span>
+                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
+                        <div class="more"><a href="http://all-free-download.com/free-website-templates/">...more</a></div>
+                    </div>
+                </div>
+                <div class="offer_box">
+                    <a href="http://all-free-download.com/free-website-templates/"><img src="images/p2.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
+                    <div class="offer_info">
+                        <span>For Sale 220 000 $</span>
+                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
+                        <div class="more"><a href="http://all-free-download.com/free-website-templates/">...more</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of column three -->
+            <div class="column4">
+                <div class="title">Special Offers</div>
+                <div class="offer_box_wide">
+                    <a href="http://all-free-download.com/free-website-templates/"><img src="images/p1.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
+                    <div class="offer_info">
+                        <span>For Sale 150 000 $</span>
+                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
+                        <div class="more"><a href="http://all-free-download.com/free-website-templates/">...more</a></div>
+                    </div>
+                </div>
+                <div class="offer_box_wide">
+                    <a href="http://all-free-download.com/free-website-templates/"><img src="images/p2.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
+                    <div class="offer_info">
+                        <span>For Sale 220 000 $</span>
+                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
+                        <div class="more"><a href="http://all-free-download.com/free-website-templates/">...more</a></div>
+                    </div>
+                </div>
+                <div class="offer_box_wide">
+                    <a href="http://all-free-download.com/free-website-templates/"><img src="images/p1.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
+                    <div class="offer_info">
+                        <span>For Sale 150 000 $</span>
+                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
+                        <div class="more"><a href="http://all-free-download.com/free-website-templates/">...more</a></div>
+                    </div>
+                </div>
+                <div class="offer_box_wide">
+                    <a href="http://all-free-download.com/free-website-templates/"><img src="images/p2.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
+                    <div class="offer_info">
+                        <span>For Sale 220 000 $</span>
+                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
+                        <div class="more"><a href="http://all-free-download.com/free-website-templates/">...more</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of column four -->
+        </div>
+        <!-- end of main_content -->
+        <div id="footer">
+            <div id="copyright">
+                <div style="float:left; padding:3px;"><a href="http://all-free-download.com/free-website-templates/"><img src="images/footer_logo.gif" width="42" height="35" alt="" border="0" /></a></div>
+                <div style="float:left; padding:14px 10px 10px 10px;"> Company name.&copy; All Rights Reserved 2008 - By <a href="http://csscreme.com" style="color:#772c17;">csscreme</a></div>
+            </div>
+            <ul class="footer_menu">
+                <li><a href="http://all-free-download.com/free-website-templates/" class="nav_footer"> Home </a></li>
+                <li><a href="http://all-free-download.com/free-website-templates/" class="nav_footer"> Selling Homes </a></li>
+                <li><a href="http://all-free-download.com/free-website-templates/" class="nav_footer"> Buying Homes </a></li>
+                <li><a href="http://all-free-download.com/free-website-templates/" class="nav_footer"> Renting Homes</a></li>
+                <li><a href="http://all-free-download.com/free-website-templates/" class="nav_footer"> RSS </a></li>
+                <li><a href="http://all-free-download.com/free-website-templates/" class="nav_footer"> Contact </a></li>
+            </ul>
+        </div>
     </div>
+    <!-- end of main_container -->
+    <div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>                     
 </body>
 </html>
