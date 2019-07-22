@@ -11,14 +11,27 @@ namespace NhaTro.Models
     public class KhachHang
     {
         [Key]
+        [StringLength(8)]
         public string MaKH { get; set; }
+
         [StringLength(50)]
+        [Required]
         public string TenKH { get; set; }
+
         [StringLength(300)]
         public string DiaChi { get; set; }
+
         [StringLength(15)]
         public string Sdt { get; set; }
+
         [StringLength(50)]
         public string Email { get; set; }
+
+        public string MaQT { get; set; }
+
+        public virtual QuocTich QuocTich { get; set; }
+
+        public virtual ICollection<Phong> Phongs { get; set; }
+        public virtual ICollection<Nha> Nhas { get; set; }
     }
 }

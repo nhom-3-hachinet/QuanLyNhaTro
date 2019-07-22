@@ -162,6 +162,10 @@
     <Compile Include="Migrations\201907150724127_InitDatabase.Designer.cs">
       <DependentUpon>201907150724127_InitDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907170748438_AlterDB.cs" />
+    <Compile Include="Migrations\201907170748438_AlterDB.Designer.cs">
+      <DependentUpon>201907170748438_AlterDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\Nha.cs" />
@@ -205,6 +209,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201907150724127_InitDatabase.resx">
       <DependentUpon>201907150724127_InitDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907170748438_AlterDB.resx">
+      <DependentUpon>201907170748438_AlterDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
