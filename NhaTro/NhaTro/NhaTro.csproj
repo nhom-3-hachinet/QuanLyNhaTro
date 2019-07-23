@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -100,6 +101,18 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\image\0001.jpg" />
+    <Content Include="Content\image\00010.jpg" />
+    <Content Include="Content\image\00011.jpg" />
+    <Content Include="Content\image\00012.jpg" />
+    <Content Include="Content\image\0002.jpg" />
+    <Content Include="Content\image\0003.jpg" />
+    <Content Include="Content\image\0004.jpg" />
+    <Content Include="Content\image\0005.jpg" />
+    <Content Include="Content\image\0006.jpg" />
+    <Content Include="Content\image\0007.jpg" />
+    <Content Include="Content\image\0008.jpg" />
+    <Content Include="Content\image\0009.jpg" />
     <Content Include="Content\NguoiDungLayoutCss\coin-slider.css" />
     <Content Include="Content\NguoiDungLayoutCss\NguoiDungLayoutCss.css" />
     <Content Include="Content\NguoiDungLayoutCss\style.css" />
