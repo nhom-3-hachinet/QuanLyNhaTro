@@ -7,27 +7,26 @@ using System.Web;
 
 namespace NhaTro.Models
 {
-    [Table("Nha")]
-    public class Nha
+    [Table("BaiDang")]
+    public class BaiDang
     {
         [Key]
         [StringLength(8)]
-        public string MaNha { get; set; }
-        [StringLength(10)]
-        public string SoPhong { get; set; }
-        [StringLength(300)]
+        public string MaTin { get; set; }
+        [StringLength(200)]
+        public string TieuDe { get; set; }
+        [StringLength(50)]
+        public string Gia { get; set; }
+        [StringLength(30)]
+        public string AnhBia { get; set; }
+        [StringLength(100)]
         public string DiaChi { get; set; }
-        public int  Gia { get; set; }
-        public string MaTTP { get; set; }
         public string MaQH { get; set; }
-        public string MaKH { get; set; }
-
-        public virtual ICollection<TienNghi> TienNghis { get; set; }
-
+        public string MaTTP { get; set; }
+        [StringLength(12)]
+        public string SDT { get; set; }
         public virtual TinhTP TinhTP { get; set; }
-
         public virtual QuanHuyen QuanHuyen { get; set; }
 
-        public virtual KhachHang KhachHang { get; set; }
     }
 }
