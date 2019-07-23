@@ -540,8 +540,8 @@ margin-left:10px;
 
 /*-------------------footer------------------------*/
 #footer{
-width:970px;
-height:41px;
+width:auto;
+height:auto;
 clear:both;
 font-size:11px;
 background-color:#f2efef;

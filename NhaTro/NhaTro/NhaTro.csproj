@@ -165,6 +165,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NguoiDungController.cs" />
+    <Compile Include="Controllers\NhathueController.cs" />
+    <Compile Include="Controllers\TimkiemController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -205,6 +207,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Layout\NguoiDungLayout.cshtml" />
+    <Content Include="Views\Nhathue\Xemchitiet.cshtml" />
+    <Content Include="Views\Nhathue\NhaThueMoiPartial.cshtml" />
+    <Content Include="Views\Nhathue\NhathuePartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -215,6 +220,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\NguoiDung\" />
+    <Folder Include="Views\Timkiem\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201907150724127_InitDatabase.resx">

@@ -17,7 +17,7 @@
     
 </head>
 <body>
-    @RenderBody()
+
     <div id="main_container">
         <div id="header">
             <div id="logo"> <a href="#"><img src="~/images/logo.gif" width="160" height="100" alt="" border="0"></a> </div>
@@ -26,29 +26,12 @@
                 <ul>
                     <li><a href="#">Trang chủ</a></li>
                     <li>
-                        <a href="admin.html">
-                            Admin
-                            <!--[if IE 7]><!-->
-                        </a>
-                        <!--<![endif]-->
-                        <!--[if lte IE 6]><table><tr><td><![endif]-->
-                        <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                        </ul>
-                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
-                    </li>
-                    <li>
                         <a href="login.html">
                             Giới thiệu
                             <!--[if IE 7]><!-->
                         </a>
                         <!--<![endif]-->
                         <!--[if lte IE 6]><table><tr><td><![endif]-->
-                        <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                        </ul>
                         <!--[if lte IE 6]></td></tr></table></a><![endif]-->
                     </li>
                     <li>
@@ -58,11 +41,6 @@
                         </a>
                         <!--<![endif]-->
                         <!--[if lte IE 6]><table><tr><td><![endif]-->
-                        <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                        </ul>
                         <!--[if lte IE 6]></td></tr></table></a><![endif]-->
                     <li><a href="#">Đăng tin</a></li>
                     <li><a href="#">Đăng ký</a></li>
@@ -153,69 +131,11 @@
                 </div>
             </div>*@
             <!-- end of column two -->
-            <div class="column3">
-                <div class="small_title">Tin mới nhất</div>
-                <div class="offer_box">
-                    <a href="#"><img src="~/images/p1.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
-                    <div class="offer_info">
-                        <span>For Sale 150 000 $</span>
-                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
-                        <div class="more"><a href="#">...more</a></div>
-                    </div>
-                </div>
-                <div class="offer_box">
-                    <a href="#"><img src="~/images/p2.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
-                    <div class="offer_info">
-                        <span>For Sale 220 000 $</span>
-                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
-                        <div class="more"><a href="#">...more</a></div>
-                    </div>
-                </div>
+            <div>
+                @Html.Action("NhathuePartial","Nhathue")
             </div>
             <!-- end of column three -->
-            <div class="column4">
-                <div class="title">Nhà cho thuê</div>
-                <div class="offer_box_wide">
-                    <a href="#"><img src="~/images/p1.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
-                    <div class="offer_info">
-                        <span>For Sale 150 000 $</span>
-                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
-                        <div class="more"><a href="#">...more</a></div>
-                    </div>
-                </div>
-                <div class="offer_box_wide">
-                    <a href="#"><img src="~/images/p2.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
-                    <div class="offer_info">
-                        <span>For Sale 220 000 $</span>
-                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
-                        <div class="more"><a href="#">...more</a></div>
-                    </div>
-                </div>
-                <div class="offer_box_wide">
-                    <a href="#"><img src="~/images/p1.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
-                    <div class="offer_info">
-                        <span>For Sale 150 000 $</span>
-                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
-                        <div class="more"><a href="#">...more</a></div>
-                    </div>
-                </div>
-                <div class="offer_box_wide">
-                    <a href="#"><img src="~/images/p2.jpg" width="130" height="98" class="img_left" alt="" border="0" /></a>
-                    <div class="offer_info">
-                        <span>For Sale 220 000 $</span>
-                        <p class="offer"> &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot; </p>
-                        <div class="more"><a href="#">...more</a></div>
-                    </div>
-                </div>
-                <div id="lblPage">
-                    <a class="selected" rel="nofollow">1</a>
-                    <a href="#" rel="nofollow">2</a>
-                    <a href="#" rel="nofollow">3</a>
-                    <a href="#" rel="nofollow">4</a>
-                    <a href="#" rel="nofollow">5</a>
-                    <a href="#" rel="nofollow">»</a>
-                </div>
-            </div>
+            @RenderBody()
             <!-- end of column four -->
         </div>
         <!-- end of main_content -->
