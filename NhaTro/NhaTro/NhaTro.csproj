@@ -176,7 +176,20 @@
     <Compile Include="Migrations\201907170748438_AlterDB.Designer.cs">
       <DependentUpon>201907170748438_AlterDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907230851236_sua_database.cs" />
+    <Compile Include="Migrations\201907230851236_sua_database.Designer.cs">
+      <DependentUpon>201907230851236_sua_database.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907230855401_sua_tenqh.cs" />
+    <Compile Include="Migrations\201907230855401_sua_tenqh.Designer.cs">
+      <DependentUpon>201907230855401_sua_tenqh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907230901402_them_taikhoan.cs" />
+    <Compile Include="Migrations\201907230901402_them_taikhoan.Designer.cs">
+      <DependentUpon>201907230901402_them_taikhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\BaiDang.cs" />
     <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\Nha.cs" />
     <Compile Include="Models\Phong.cs" />
@@ -222,6 +235,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907170748438_AlterDB.resx">
       <DependentUpon>201907170748438_AlterDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907230851236_sua_database.resx">
+      <DependentUpon>201907230851236_sua_database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907230855401_sua_tenqh.resx">
+      <DependentUpon>201907230855401_sua_tenqh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907230901402_them_taikhoan.resx">
+      <DependentUpon>201907230901402_them_taikhoan.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
