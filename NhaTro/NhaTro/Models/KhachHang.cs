@@ -28,6 +28,10 @@ namespace NhaTro.Models
         public string Email { get; set; }
 
         public string MaQT { get; set; }
+        [StringLength(30)]
+        public string TaiKhoan { get; set; }
+        [StringLength(30)]
+        public string MatKhau { get; set; }
 
         public virtual QuocTich QuocTich { get; set; }
 
