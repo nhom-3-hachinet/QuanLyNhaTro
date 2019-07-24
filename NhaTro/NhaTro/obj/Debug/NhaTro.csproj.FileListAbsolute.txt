@@ -32,7 +32,6 @@ E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Webpages.Deployment.
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Webpages.Razor.xml
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Helpers.xml
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Mvc.xml
-E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.InitDatabase.resources
@@ -126,3 +125,5 @@ C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.cspr
 C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.CopyComplete
 C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.themmoi.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache

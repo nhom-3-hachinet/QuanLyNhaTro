@@ -14,7 +14,7 @@ namespace NhaTro.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            return View(db.BaiDangs.Where(n=>n.Moi==1).ToList());
         }
     }
 }
