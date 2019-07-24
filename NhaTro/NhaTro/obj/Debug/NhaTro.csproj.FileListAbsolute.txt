@@ -32,7 +32,6 @@ E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Webpages.Deployment.
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Webpages.Razor.xml
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Helpers.xml
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\System.Web.Mvc.xml
-E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.InitDatabase.resources
@@ -81,3 +80,5 @@ C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.M
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.sua_database.resources
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.sua_tenqh.resources
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.them_taikhoan.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.themmoi.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
