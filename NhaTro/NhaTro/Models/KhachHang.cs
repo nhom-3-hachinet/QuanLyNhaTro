@@ -33,8 +33,6 @@ namespace NhaTro.Models
         [StringLength(30)]
         public string MatKhau { get; set; }
 
-        public virtual QuocTich QuocTich { get; set; }
-
         public virtual ICollection<Phong> Phongs { get; set; }
         public virtual ICollection<Nha> Nhas { get; set; }
     }
