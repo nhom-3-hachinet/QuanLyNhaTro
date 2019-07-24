@@ -185,6 +185,10 @@
     <Compile Include="Migrations\201907240723562_xoa_qtich.Designer.cs">
       <DependentUpon>201907240723562_xoa_qtich.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907240813373_xoa_thuoctinh.cs" />
+    <Compile Include="Migrations\201907240813373_xoa_thuoctinh.Designer.cs">
+      <DependentUpon>201907240813373_xoa_thuoctinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\BaiDangDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -278,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907240723562_xoa_qtich.resx">
       <DependentUpon>201907240723562_xoa_qtich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907240813373_xoa_thuoctinh.resx">
+      <DependentUpon>201907240813373_xoa_thuoctinh.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
