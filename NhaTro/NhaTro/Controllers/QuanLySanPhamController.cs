@@ -13,7 +13,7 @@ namespace NhaTro.Controllers
         QuanLyNhaTroDbContext db = new QuanLyNhaTroDbContext();
         public ActionResult Index()
         {
-            return View(db.KhachHangs.ToList());
+            return View(db.BaiDangs.ToList());
         }
     }
 }
