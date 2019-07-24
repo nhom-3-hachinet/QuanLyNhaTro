@@ -13,9 +13,5 @@ namespace NhaTro.Controllers
         {
             return View();
         }
-        public ActionResult Dangky()
-        {
-            return Dangky();
-        }
     }
 }
