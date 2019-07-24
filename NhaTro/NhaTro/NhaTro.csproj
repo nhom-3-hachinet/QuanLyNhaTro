@@ -181,6 +181,10 @@
     <Compile Include="Controllers\NguoiDungController.cs" />
     <Compile Include="Controllers\NhathueController.cs" />
     <Compile Include="Controllers\TimkiemController.cs" />
+    <Compile Include="Migrations\201907240723562_xoa_qtich.cs" />
+    <Compile Include="Migrations\201907240723562_xoa_qtich.Designer.cs">
+      <DependentUpon>201907240723562_xoa_qtich.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\BaiDangDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -216,7 +220,6 @@
     <Compile Include="Models\Phong.cs" />
     <Compile Include="Models\QuanHuyen.cs" />
     <Compile Include="Models\QuanLyNhaTroDbContext.cs" />
-    <Compile Include="Models\QuocTich.cs" />
     <Compile Include="Models\TienNghi.cs" />
     <Compile Include="Models\TinhTP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -272,6 +275,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907240035373_themmoi.resx">
       <DependentUpon>201907240035373_themmoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907240723562_xoa_qtich.resx">
+      <DependentUpon>201907240723562_xoa_qtich.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
