@@ -1,5 +1,5 @@
 ﻿@using NhaTro.Models;
-@model List<BaiDang>
+@model List<BaiDangDAO>
 
 
         @{
@@ -16,7 +16,7 @@
                     <div class="offer_info">
                         <span>@item.TieuDe</span><br />
                         <span class="gia">Giá phòng: @item.Gia</span>
-                        <p>Địa Chỉ: @item.DiaChi</p>                     
+                        <p>Địa Chỉ: @item.DiaChi, @item.TenQH, @item.TenTTP</p>                     
                         <p>Số điện thoại: @item.SDT</p>
                         <p class="offer"></p>
                         <div class="more"><a href="#">...more</a></div>
