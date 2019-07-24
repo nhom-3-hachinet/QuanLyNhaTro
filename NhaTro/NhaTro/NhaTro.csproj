@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -100,6 +101,18 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="AnhBaiDang\0001.jpg" />
+    <Content Include="AnhBaiDang\0010.jpg" />
+    <Content Include="AnhBaiDang\0011.jpg" />
+    <Content Include="AnhBaiDang\0012.jpg" />
+    <Content Include="AnhBaiDang\0002.jpg" />
+    <Content Include="AnhBaiDang\0003.jpg" />
+    <Content Include="AnhBaiDang\0004.jpg" />
+    <Content Include="AnhBaiDang\0005.jpg" />
+    <Content Include="AnhBaiDang\0006.jpg" />
+    <Content Include="AnhBaiDang\0007.jpg" />
+    <Content Include="AnhBaiDang\0008.jpg" />
+    <Content Include="AnhBaiDang\0009.jpg" />
     <Content Include="Content\NguoiDungLayoutCss\coin-slider.css" />
     <Content Include="Content\NguoiDungLayoutCss\NguoiDungLayoutCss.css" />
     <Content Include="Content\NguoiDungLayoutCss\style.css" />
@@ -253,6 +266,7 @@
     <Compile Include="Controllers\NhathueController.cs" />
     <Compile Include="Controllers\QuanLySPController.cs" />
     <Compile Include="Controllers\TimkiemController.cs" />
+    <Compile Include="Models\BaiDangDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -275,6 +289,10 @@
     <Compile Include="Migrations\201907230901402_them_taikhoan.cs" />
     <Compile Include="Migrations\201907230901402_them_taikhoan.Designer.cs">
       <DependentUpon>201907230901402_them_taikhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907240035373_themmoi.cs" />
+    <Compile Include="Migrations\201907240035373_themmoi.Designer.cs">
+      <DependentUpon>201907240035373_themmoi.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BaiDang.cs" />
@@ -309,8 +327,12 @@
     <Content Include="Views\Nhathue\Xemchitiet.cshtml" />
     <Content Include="Views\Nhathue\NhaThueMoiPartial.cshtml" />
     <Content Include="Views\Nhathue\NhathuePartial.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Layout\AdminLayout.cshtml" />
     <Content Include="Views\QuanLySP\Index.cshtml" />
+=======
+    <Content Include="Views\NguoiDung\Dangky.cshtml" />
+>>>>>>> 2792aef473afbfb54d2bf7f3987f1977f738ab17
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -320,8 +342,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+<<<<<<< HEAD
     <Folder Include="Content\TemplateAdmin\img\" />
     <Folder Include="Views\NguoiDung\" />
+=======
+>>>>>>> 2792aef473afbfb54d2bf7f3987f1977f738ab17
     <Folder Include="Views\Timkiem\" />
   </ItemGroup>
   <ItemGroup>
@@ -339,6 +364,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907230901402_them_taikhoan.resx">
       <DependentUpon>201907230901402_them_taikhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907240035373_themmoi.resx">
+      <DependentUpon>201907240035373_themmoi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
