@@ -171,3 +171,6 @@ C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\obj\De
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.Cache
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
+C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.themmoi.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_qtich.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_thuoctinh.resources

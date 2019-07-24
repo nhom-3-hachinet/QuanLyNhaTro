@@ -27,13 +27,9 @@ namespace NhaTro.Models
         [StringLength(50)]
         public string Email { get; set; }
 
-        public string MaQT { get; set; }
-        [StringLength(30)]
         public string TaiKhoan { get; set; }
         [StringLength(30)]
         public string MatKhau { get; set; }
-
-        public virtual QuocTich QuocTich { get; set; }
 
         public virtual ICollection<Phong> Phongs { get; set; }
         public virtual ICollection<Nha> Nhas { get; set; }
