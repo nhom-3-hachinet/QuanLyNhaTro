@@ -117,78 +117,6 @@
     <Content Include="Content\NguoiDungLayoutCss\NguoiDungLayoutCss.css" />
     <Content Include="Content\NguoiDungLayoutCss\style.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Content\TemplateAdmin\calendar.html" />
-    <Content Include="Content\TemplateAdmin\chart.html" />
-    <Content Include="Content\TemplateAdmin\css\bootstrap-responsive.css" />
-    <Content Include="Content\TemplateAdmin\css\bootstrap-responsive.min.css" />
-    <Content Include="Content\TemplateAdmin\css\bootstrap.css" />
-    <Content Include="Content\TemplateAdmin\css\bootstrap.min.css" />
-    <Content Include="Content\TemplateAdmin\css\chosen.css" />
-    <Content Include="Content\TemplateAdmin\css\elfinder.min.css" />
-    <Content Include="Content\TemplateAdmin\css\elfinder.theme.css" />
-    <Content Include="Content\TemplateAdmin\css\font-awesome-ie7.min.css" />
-    <Content Include="Content\TemplateAdmin\css\font-awesome.min.css" />
-    <Content Include="Content\TemplateAdmin\css\fullcalendar.css" />
-    <Content Include="Content\TemplateAdmin\css\glyphicons.css" />
-    <Content Include="Content\TemplateAdmin\css\halflings.css" />
-    <Content Include="Content\TemplateAdmin\css\ie.css" />
-    <Content Include="Content\TemplateAdmin\css\ie9.css" />
-    <Content Include="Content\TemplateAdmin\css\jquery-ui-1.8.21.custom.css" />
-    <Content Include="Content\TemplateAdmin\css\jquery.cleditor.css" />
-    <Content Include="Content\TemplateAdmin\css\jquery.gritter.css" />
-    <Content Include="Content\TemplateAdmin\css\jquery.iphone.toggle.css" />
-    <Content Include="Content\TemplateAdmin\css\jquery.noty.css" />
-    <Content Include="Content\TemplateAdmin\css\noty_theme_default.css" />
-    <Content Include="Content\TemplateAdmin\css\style-responsive.css" />
-    <Content Include="Content\TemplateAdmin\css\style.css" />
-    <Content Include="Content\TemplateAdmin\file-manager.html" />
-    <Content Include="Content\TemplateAdmin\font\glyphicons-regular.svg" />
-    <Content Include="Content\TemplateAdmin\font\glyphiconshalflings-regular.svg" />
-    <Content Include="Content\TemplateAdmin\form.html" />
-    <Content Include="Content\TemplateAdmin\gallery.html" />
-    <Content Include="Content\TemplateAdmin\icon.html" />
-    <Content Include="Content\TemplateAdmin\index.html" />
-    <Content Include="Content\TemplateAdmin\js\bootstrap.js" />
-    <Content Include="Content\TemplateAdmin\js\bootstrap.min.js" />
-    <Content Include="Content\TemplateAdmin\js\counter.js" />
-    <Content Include="Content\TemplateAdmin\js\custom.js" />
-    <Content Include="Content\TemplateAdmin\js\excanvas.js" />
-    <Content Include="Content\TemplateAdmin\js\fullcalendar.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery-1.9.1.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery-migrate-1.0.0.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery-ui-1.10.0.custom.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.chosen.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.cleditor.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.cookie.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.dataTables.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.elfinder.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.flot.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.flot.pie.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.flot.resize.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.flot.stack.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.gritter.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.imagesloaded.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.iphone.toggle.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.knob.modified.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.masonry.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.noty.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.raty.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.sparkline.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.ui.touch-punch.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.uniform.min.js" />
-    <Content Include="Content\TemplateAdmin\js\jquery.uploadify-3.1.min.js" />
-    <Content Include="Content\TemplateAdmin\js\modernizr.js" />
-    <Content Include="Content\TemplateAdmin\js\retina.js" />
-    <Content Include="Content\TemplateAdmin\login.html" />
-    <Content Include="Content\TemplateAdmin\messages.html" />
-    <Content Include="Content\TemplateAdmin\submenu.html" />
-    <Content Include="Content\TemplateAdmin\submenu2.html" />
-    <Content Include="Content\TemplateAdmin\submenu3.html" />
-    <Content Include="Content\TemplateAdmin\table.html" />
-    <Content Include="Content\TemplateAdmin\tasks.html" />
-    <Content Include="Content\TemplateAdmin\typography.html" />
-    <Content Include="Content\TemplateAdmin\ui.html" />
-    <Content Include="Content\TemplateAdmin\widgets.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="images\a2d.gif" />
@@ -229,19 +157,6 @@
     <Content Include="images\tr_back.gif" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Content\TemplateAdmin\README.md" />
-    <Content Include="Content\TemplateAdmin\font\fontawesome-webfont-0.eot" />
-    <Content Include="Content\TemplateAdmin\font\fontawesome-webfont-62877.eot" />
-    <Content Include="Content\TemplateAdmin\font\fontawesome-webfont-62877.ttf" />
-    <Content Include="Content\TemplateAdmin\font\fontawesome-webfont-62877.woff" />
-    <Content Include="Content\TemplateAdmin\font\glyphicons-regular-0.eot" />
-    <Content Include="Content\TemplateAdmin\font\glyphicons-regular.eot" />
-    <Content Include="Content\TemplateAdmin\font\glyphicons-regular.ttf" />
-    <Content Include="Content\TemplateAdmin\font\glyphicons-regular.woff" />
-    <Content Include="Content\TemplateAdmin\font\glyphiconshalflings-regular-0.eot" />
-    <Content Include="Content\TemplateAdmin\font\glyphiconshalflings-regular.eot" />
-    <Content Include="Content\TemplateAdmin\font\glyphiconshalflings-regular.ttf" />
-    <Content Include="Content\TemplateAdmin\font\glyphiconshalflings-regular.woff" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -264,7 +179,6 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NguoiDungController.cs" />
     <Compile Include="Controllers\NhathueController.cs" />
-    <Compile Include="Controllers\QuanLySPController.cs" />
     <Compile Include="Controllers\TimkiemController.cs" />
     <Compile Include="Models\BaiDangDAO.cs" />
     <Compile Include="Global.asax.cs">
@@ -327,12 +241,7 @@
     <Content Include="Views\Nhathue\Xemchitiet.cshtml" />
     <Content Include="Views\Nhathue\NhaThueMoiPartial.cshtml" />
     <Content Include="Views\Nhathue\NhathuePartial.cshtml" />
-<<<<<<< HEAD
-    <Content Include="Views\Layout\AdminLayout.cshtml" />
-    <Content Include="Views\QuanLySP\Index.cshtml" />
-=======
     <Content Include="Views\NguoiDung\Dangky.cshtml" />
->>>>>>> 2792aef473afbfb54d2bf7f3987f1977f738ab17
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -342,11 +251,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-<<<<<<< HEAD
-    <Folder Include="Content\TemplateAdmin\img\" />
-    <Folder Include="Views\NguoiDung\" />
-=======
->>>>>>> 2792aef473afbfb54d2bf7f3987f1977f738ab17
     <Folder Include="Views\Timkiem\" />
   </ItemGroup>
   <ItemGroup>
