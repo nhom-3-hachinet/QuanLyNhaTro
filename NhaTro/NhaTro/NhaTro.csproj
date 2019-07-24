@@ -236,6 +236,7 @@
     <Content Include="Views\Nhathue\Xemchitiet.cshtml" />
     <Content Include="Views\Nhathue\NhaThueMoiPartial.cshtml" />
     <Content Include="Views\Nhathue\NhathuePartial.cshtml" />
+    <Content Include="Views\NguoiDung\Dangky.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -245,7 +246,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\NguoiDung\" />
     <Folder Include="Views\Timkiem\" />
   </ItemGroup>
   <ItemGroup>
