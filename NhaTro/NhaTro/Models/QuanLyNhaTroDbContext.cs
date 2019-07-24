@@ -12,7 +12,6 @@ namespace NhaTro.Models
         {
 
         }
-        public virtual DbSet<BaiDang> BaiDangs { get; set; }
         public virtual DbSet<TinhTP> TinhTPs { get; set; }
         public virtual DbSet<QuanHuyen> QuanHuyens { get; set; }
         public virtual DbSet<KhachHang> KhachHangs { get; set; }
