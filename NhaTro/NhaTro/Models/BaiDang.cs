@@ -25,6 +25,7 @@ namespace NhaTro.Models
         public string MaTTP { get; set; }
         [StringLength(12)]
         public string SDT { get; set; }
+        public int Moi { get; set; }
         public virtual TinhTP TinhTP { get; set; }
         public virtual QuanHuyen QuanHuyen { get; set; }
 
