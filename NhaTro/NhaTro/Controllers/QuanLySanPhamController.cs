@@ -13,7 +13,17 @@ namespace NhaTro.Controllers
         QuanLyNhaTroDbContext db = new QuanLyNhaTroDbContext();
         public ActionResult Index()
         {
-            return View(db.KhachHangs.ToList());
+            return View(db.BaiDangs.ToList());
+        }
+
+        public ActionResult ThemMoi()
+        {
+            NewPostViewModel model = new NewPostViewModel
+            {
+                MaQH = db.QuanHuyens.ToList(),
+                MaTTP = db.TinhTPs.ToList(),
+            };
+            return View(model);
         }
     }
 }
