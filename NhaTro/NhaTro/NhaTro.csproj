@@ -382,6 +382,7 @@
     <Compile Include="Models\QuanLyNhaTroDbContext.cs" />
     <Compile Include="Models\TienNghi.cs" />
     <Compile Include="Models\TinhTP.cs" />
+    <Compile Include="ViewModels\NewPostViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -408,6 +409,7 @@
     <Content Include="Views\NguoiDung\Dangky.cshtml" />
     <Content Include="Views\Layout\AdminLayout.cshtml" />
     <Content Include="Views\QuanLySanPham\Index.cshtml" />
+    <Content Include="Views\QuanLySanPham\ThemMoi.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

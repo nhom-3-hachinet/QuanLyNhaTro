@@ -15,5 +15,15 @@ namespace NhaTro.Controllers
         {
             return View(db.BaiDangs.ToList());
         }
+
+        public ActionResult ThemMoi()
+        {
+            NewPostViewModel model = new NewPostViewModel
+            {
+                MaQH = db.QuanHuyens.ToList(),
+                MaTTP = db.TinhTPs.ToList(),
+            };
+            return View(model);
+        }
     }
 }
