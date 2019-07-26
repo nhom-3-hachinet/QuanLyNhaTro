@@ -52,7 +52,7 @@
             @Html.DisplayFor(modelItem => item.Gia)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.AnhBia)
+            <div><img src="@Url.Content("~/AnhBaiDang/"+item.AnhBia)" width="130" height="98" class="img_left" alt="" border="0" /></div>
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DiaChi)

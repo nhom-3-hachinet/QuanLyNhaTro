@@ -272,6 +272,7 @@
     <Content Include="images\center_box_bg.gif" />
     <Content Include="images\contact_envelope.gif" />
     <Content Include="images\find.gif" />
+    <Content Include="images\find.png" />
     <Content Include="images\footer_logo.gif" />
     <Content Include="images\join.gif" />
     <Content Include="images\list_style1.gif" />
