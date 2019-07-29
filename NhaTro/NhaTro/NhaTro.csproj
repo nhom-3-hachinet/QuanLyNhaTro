@@ -410,6 +410,7 @@
     <Content Include="Views\Layout\AdminLayout.cshtml" />
     <Content Include="Views\QuanLySanPham\Index.cshtml" />
     <Content Include="Views\QuanLySanPham\ThemMoi.cshtml" />
+    <Content Include="Views\Timkiem\KetQuaTimKiem.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -419,7 +420,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Timkiem\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201907150724127_InitDatabase.resx">

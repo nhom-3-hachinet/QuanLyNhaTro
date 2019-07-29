@@ -57,7 +57,7 @@
                         <div class="form">
                             <div class="form_row">
                                 <label class="left">Tỉnh thành: </label>
-                                @using (Html.BeginForm("KetQuaTimKiem","Timkiem"))
+                                @using (Html.BeginForm("KetQuaTimKiem","Timkiem",FormMethod.Post))
                                 {
                                     @Html.TextBox("txtTimKiem", "", htmlAttributes: new { @class = "TextboxTimKiem", @placeholder = "Nhập vào từ khoá cần tìm..." })
                                     <div id="imgTimKiem">

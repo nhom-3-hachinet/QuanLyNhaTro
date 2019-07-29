@@ -126,7 +126,6 @@ C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.cspr
 C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.themmoi.resources
-E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\bin\roslyn\csc.exe
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -228,3 +227,4 @@ C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.M
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.themmoi.resources
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_qtich.resources
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_thuoctinh.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
