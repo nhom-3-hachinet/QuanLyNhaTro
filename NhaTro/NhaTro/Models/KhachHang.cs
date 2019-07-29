@@ -27,6 +27,7 @@ namespace NhaTro.Models
         [StringLength(50)]
         public string Email { get; set; }
 
+        [StringLength(30)]
         public string TaiKhoan { get; set; }
         [StringLength(30)]
         public string MatKhau { get; set; }
