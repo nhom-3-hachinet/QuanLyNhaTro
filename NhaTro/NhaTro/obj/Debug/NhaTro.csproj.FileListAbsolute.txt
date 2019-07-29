@@ -126,7 +126,6 @@ C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.cspr
 C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.themmoi.resources
-E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\bin\roslyn\csc.exe
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -172,6 +171,8 @@ C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\obj\De
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
 C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.themmoi.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_qtich.resource
+C:\Users\84988\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_qtich.resources
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_qtich.resources
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_thuoctinh.resources
 C:\Users\Dzung Le\Documents\GitHub\NhaTro11111\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_qtich.resources
@@ -221,6 +222,13 @@ C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.Migrati
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.Cache
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.pdb
+C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.sua_database.resources
+C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.sua_tenqh.resources
+C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.them_taikhoan.resources
+C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.themmoi.resources
+C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_qtich.resources
+C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_thuoctinh.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.Mvc.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.xml
@@ -277,3 +285,8 @@ C:\Users\Dzung Le\Documents\GitHub\NhaTro-goc\QuanLyNhaTro\NhaTro\NhaTro\obj\Deb
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-goc\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csproj.GenerateResource.Cache
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-goc\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-goc\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.pdb
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\PagedList.dll
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\PagedList.Mvc.dll
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\PagedList.xml
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\PagedList.Mvc.xml
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.them_mota.resources

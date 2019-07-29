@@ -419,9 +419,12 @@
     <Content Include="Views\Layout\NguoiDungLayout.cshtml" />
     <Content Include="Views\Nhathue\NhathuePartial.cshtml" />
     <Content Include="Views\NguoiDung\Dangky.cshtml" />
+    <Content Include="Views\NguoiDung\Dangnhap.cshtml" />
+    <Content Include="Views\NguoiDung\Logout.cshtml" />
     <Content Include="Views\Layout\AdminLayout.cshtml" />
     <Content Include="Views\QuanLySanPham\Index.cshtml" />
     <Content Include="Views\QuanLySanPham\ThemMoi.cshtml" />
+    <Content Include="Views\Timkiem\KetQuaTimKiem.cshtml" />
     <Content Include="Views\Layout\XemChiTiet.cshtml" />
     <Content Include="Views\Nhathue\XemCT.cshtml" />
     <None Include="Web.Debug.config">
@@ -433,7 +436,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Timkiem\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201907150724127_InitDatabase.resx">

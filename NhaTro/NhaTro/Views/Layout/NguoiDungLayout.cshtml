@@ -14,7 +14,7 @@
     <script src="~/Scripts/jquery-1.4.2.min.js"></script>
     <script src="~/Scripts/script.js"></script>
     <script src="~/Scripts/coin-slider.min.js"></script>
-    
+
 </head>
 <body>
 
@@ -42,9 +42,16 @@
                         <!--<![endif]-->
                         <!--[if lte IE 6]><table><tr><td><![endif]-->
                         <!--[if lte IE 6]></td></tr></table></a><![endif]-->
-                    <li><a href="#">Đăng tin</a></li>
-                    <li><a href="">Đăng ký</a></li>
-                    <li><a href="#">Đăng nhập</a></li>
+                    <li><a href="">Đăng tin</a></li>
+                    <li>
+                        <a href="/NguoiDung/Dangky">Đăng ký </a>
+                    </li>
+                    <li>
+                        <a href="/NguoiDung/Dangnhap">Đăng nhập</a>
+                    </li>
+                    <li>
+                        <a href="/NguoiDung/Logout">Đăng Xuất</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -57,7 +64,7 @@
                         <div class="form">
                             <div class="form_row">
                                 <label class="left">Tỉnh thành: </label>
-                                @using (Html.BeginForm("KetQuaTimKiem","Timkiem"))
+                                @using (Html.BeginForm("KetQuaTimKiem","Timkiem",FormMethod.Post))
                                 {
                                     @Html.TextBox("txtTimKiem", "", htmlAttributes: new { @class = "TextboxTimKiem", @placeholder = "Nhập vào từ khoá cần tìm..." })
                                     <div id="imgTimKiem">
@@ -123,17 +130,17 @@
             </div>
             <!-- end of column one -->
             @*<div class="column2">
-                <div class="main_text_box">
-                    <h2>About Us</h2>
-                    <p> &quot;Chúng tôi luôn cố gắng đem lại những thông tin nhanh chóng và chính xác cho mọi người. Rất mong nhận được sự ủng hộ giúp đỡ để cùng nhau xây dựng một kênh thông tin về nhà trọ phòng trọ tốt dành cho mọi người.&quot; </p>
-                </div>
-                <div class="main_text_box">
-                    <h2>Request a proposal</h2>
-                    <div class="proposal">
-                        <p class="proposal_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="main_text_box">
+                        <h2>About Us</h2>
+                        <p> &quot;Chúng tôi luôn cố gắng đem lại những thông tin nhanh chóng và chính xác cho mọi người. Rất mong nhận được sự ủng hộ giúp đỡ để cùng nhau xây dựng một kênh thông tin về nhà trọ phòng trọ tốt dành cho mọi người.&quot; </p>
                     </div>
-                </div>
-            </div>*@
+                    <div class="main_text_box">
+                        <h2>Request a proposal</h2>
+                        <div class="proposal">
+                            <p class="proposal_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>*@
             <!-- end of column two -->
             <div>
                 @Html.Action("NhathuePartial", "Nhathue")
@@ -158,6 +165,6 @@
             </ul>
         </div>
     </div>
-    <!-- end of main_container -->                  
+    <!-- end of main_container -->
 </body>
 </html>
