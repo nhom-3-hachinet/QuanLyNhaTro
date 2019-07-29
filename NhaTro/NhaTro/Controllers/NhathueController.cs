@@ -11,10 +11,10 @@ namespace NhaTro.Controllers
     {
         // GET: Nhathue
         QuanLyNhaTroDbContext db = new QuanLyNhaTroDbContext();
-        public ActionResult NhathuePartial()
-        {
-            var listBaiMoi = db.BaiDangs.Take(3).ToList();
-            return PartialView(listBaiMoi);
-        }
+        //public ActionResult NhathuePartial()
+        //{
+        //    var listBaiMoi = db.BaiDangs.Take(3).ToList();
+        //    return PartialView(listBaiMoi);
+        //}
     }
 }

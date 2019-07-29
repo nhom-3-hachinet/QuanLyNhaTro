@@ -246,6 +246,8 @@
     <Content Include="Views\Nhathue\NhaThueMoiPartial.cshtml" />
     <Content Include="Views\Nhathue\NhathuePartial.cshtml" />
     <Content Include="Views\NguoiDung\Dangky.cshtml" />
+    <Content Include="Views\NguoiDung\Dangnhap.cshtml" />
+    <Content Include="Views\NguoiDung\Logout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
