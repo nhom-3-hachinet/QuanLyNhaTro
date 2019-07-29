@@ -16,11 +16,6 @@ namespace NhaTro.Controllers
            var listBaiMoi = db.BaiDangs.Take(3).ToList();
            return PartialView(listBaiMoi);
         }
-        public ActionResult NhathuePartial()
-        {
-            var listBaiMoi = db.BaiDangs.Take(3).ToList();
-            return PartialView(listBaiMoi);
-        }
         public ViewResult XemCT(string matin)
         {
             BaiDang baidang = db.BaiDangs.SingleOrDefault(n=>n.MaTin.Equals(matin));

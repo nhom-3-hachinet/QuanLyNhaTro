@@ -1,14 +1,10 @@
 ﻿
 @{
-                /**/
 
                 ViewBag.Title = "Dangnhap";
                 Layout = "~/Views/Layout/NguoiDungLayout.cshtml";
 }
-
-<h2>
-    Dangnhap
-</h2>
+<div>@ViewBag.thongbao</div>
 @using (Html.BeginForm())
 {<span>Tài Khoản :</span> <br />
     @Html.TextBox("txtTaiKhoan");<br />
@@ -16,3 +12,4 @@
     @Html.TextBox("txtMatKhau");<br />
     <input type="submit" value="Đăng nhập" id ="btnsubmit" name="btnsubmit" />
 }
+
