@@ -232,3 +232,8 @@ C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.Mvc.dll
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.xml
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.Mvc.xml
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.Migrations.them_mota.resources
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\PagedList.dll
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\PagedList.Mvc.dll
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\PagedList.xml
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\bin\PagedList.Mvc.xml
+E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.them_mota.resources
