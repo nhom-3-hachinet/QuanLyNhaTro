@@ -57,6 +57,14 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -116,6 +124,7 @@
     <Content Include="Content\NguoiDungLayoutCss\coin-slider.css" />
     <Content Include="Content\NguoiDungLayoutCss\NguoiDungLayoutCss.css" />
     <Content Include="Content\NguoiDungLayoutCss\style.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\TemplateAdmin\calendar.html" />
     <Content Include="Content\TemplateAdmin\chart.html" />
@@ -344,6 +353,10 @@
     <Compile Include="Migrations\201907240813373_xoa_thuoctinh.Designer.cs">
       <DependentUpon>201907240813373_xoa_thuoctinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907290231433_them_mota.cs" />
+    <Compile Include="Migrations\201907290231433_them_mota.Designer.cs">
+      <DependentUpon>201907290231433_them_mota.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\BaiDangDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -374,6 +387,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BaiDang.cs" />
+    <Compile Include="Models\ChiTietDAO.cs" />
     <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\Nha.cs" />
     <Compile Include="Models\Phong.cs" />
@@ -402,13 +416,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Layout\NguoiDungLayout.cshtml" />
-    <Content Include="Views\Nhathue\Xemchitiet.cshtml" />
-    <Content Include="Views\Nhathue\NhaThueMoiPartial.cshtml" />
     <Content Include="Views\Nhathue\NhathuePartial.cshtml" />
     <Content Include="Views\NguoiDung\Dangky.cshtml" />
     <Content Include="Views\Layout\AdminLayout.cshtml" />
     <Content Include="Views\QuanLySanPham\Index.cshtml" />
     <Content Include="Views\QuanLySanPham\ThemMoi.cshtml" />
+    <Content Include="Views\Layout\XemChiTiet.cshtml" />
+    <Content Include="Views\Nhathue\XemCT.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -444,6 +458,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907240813373_xoa_thuoctinh.resx">
       <DependentUpon>201907240813373_xoa_thuoctinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907290231433_them_mota.resx">
+      <DependentUpon>201907290231433_them_mota.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

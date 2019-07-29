@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -16,7 +15,6 @@ namespace NhaTro.Models
         public string MaTTP { get; set; }
 
         [StringLength(50)]
-        [DisplayName("Tên Tỉnh, Thành phố")]
         public string TenTTP { get; set; }
 
         public virtual ICollection<QuanHuyen> QuanHuyens { get; set; }

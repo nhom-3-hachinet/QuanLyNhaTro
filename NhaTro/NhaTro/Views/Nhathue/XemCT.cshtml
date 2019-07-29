@@ -1,0 +1,18 @@
+﻿@using NhaTro.Models
+@model BaiDang
+@{
+    ViewBag.Title = "XemCT";
+    Layout = "~/Views/Layout/XemChiTiet.cshtml";
+}
+
+
+    
+     <div class="offer_info">
+         <span>@Model.TieuDe</span><br />
+         <span class="gia">Giá phòng: @Model.Gia</span>
+         <p>Địa Chỉ: @Model.DiaChi</p>
+         <p>Số điện thoại: @Model.SDT</p>
+         <p class="offer"></p>
+     </div>
+
+
