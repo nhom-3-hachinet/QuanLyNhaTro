@@ -8,6 +8,7 @@ namespace NhaTro.Models
     
     public class BaiDangDAO
     {
+        public string MaTin { get; set; }
         public string TieuDe { get; set; }
         public string Gia { get; set; }
         public string AnhBia { get; set; }

@@ -15,6 +15,8 @@ namespace NhaTro.Models
         public string MaTin { get; set; }
         [StringLength(200)]
         public string TieuDe { get; set; }
+        public string MoTa { get; set; }
+
         [StringLength(50)]
         public string Gia { get; set; }
         [StringLength(30)]

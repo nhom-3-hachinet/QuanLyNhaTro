@@ -64,15 +64,21 @@
                         <div class="form">
                             <div class="form_row">
                                 <label class="left">Tỉnh thành: </label>
-                                <input type="text" class="form_input" />
+                                @using (Html.BeginForm("KetQuaTimKiem","Timkiem",FormMethod.Post))
+                                {
+                                    @Html.TextBox("txtTimKiem", "", htmlAttributes: new { @class = "TextboxTimKiem", @placeholder = "Nhập vào từ khoá cần tìm..." })
+                                    <div id="imgTimKiem">
+                                        <button type="submit"><img src="~/images/find.gif"/></button>
+                                    </div>
+                                }
+                                
+
                             </div>
+                            
+                            
                             <div class="form_row">
                                 <label class="left">Quận huyện: </label>
                                 <input type="text" class="form_input" />
-                            </div>
-                            <div class="form_row">
-                                <label class="left">Giá: </label>
-                                <input type="text" class="form_input" value="minimum" />
                             </div>
                             <div style="float:right; padding:10px 25px 0 0;">
                                 <input type="image" src="~/images/find.gif" />
