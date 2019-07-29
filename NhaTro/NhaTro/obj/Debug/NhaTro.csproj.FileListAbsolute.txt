@@ -209,7 +209,6 @@ C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\System.Web.Webpages.
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\System.Web.Webpages.Razor.xml
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\System.Web.Helpers.xml
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\System.Web.Mvc.xml
-C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.Migrations.InitDatabase.resources
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.Migrations.AlterDB.resources
 C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.Migrations.sua_database.resources
@@ -228,3 +227,8 @@ C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.M
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_qtich.resources
 C:\Users\Dzung Le\Documents\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.Migrations.xoa_thuoctinh.resources
 E:\Project\GitHub\QuanLyNhaTro\NhaTro\NhaTro\obj\Debug\NhaTro.csprojResolveAssemblyReference.cache
+C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.dll
+C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.Mvc.dll
+C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.xml
+C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\bin\PagedList.Mvc.xml
+C:\Users\Dzung Le\Documents\GitHub\NhaTro-COPYYY\NhaTro\obj\Debug\NhaTro.Migrations.them_mota.resources
