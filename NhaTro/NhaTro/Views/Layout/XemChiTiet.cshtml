@@ -56,15 +56,23 @@
                         <div class="form">
                             <div class="form_row">
                                 <label class="left">Tỉnh thành: </label>
-                                <input type="text" class="form_input" />
+                                @using (Html.BeginForm("KetQuaTimKiem", "Timkiem"))
+                                {
+                                    @Html.TextBox("txtTimKiem", "", htmlAttributes: new { @class = "TextboxTimKiem", @placeholder = "Nhập vào từ khoá cần tìm..." })
+                                    <div id="imgTimKiem">
+                                        <div style="float:right; padding:10px 25px 0 0;">
+                                            <input type="image" src="~/images/find.gif" />
+                                        </div>
+                                    </div>
+                                }
+
+
                             </div>
+
+
                             <div class="form_row">
                                 <label class="left">Quận huyện: </label>
                                 <input type="text" class="form_input" />
-                            </div>
-                            <div class="form_row">
-                                <label class="left">Giá: </label>
-                                <input type="text" class="form_input" value="minimum" />
                             </div>
                             <div style="float:right; padding:10px 25px 0 0;">
                                 <input type="image" src="~/images/find.gif" />
@@ -74,7 +82,7 @@
                     <div class="bottom_left_box"> </div>
                 </div>
                 <div class="left_box">
-                    <div class="top_left_box"> </div>
+                    @*<div class="top_left_box"> </div>
                     <div class="center_left_box">
                         <div class="box_title"><span>Join</span> our newsletter:</div>
                         <div class="form">
@@ -86,7 +94,7 @@
                                 <input type="image" src="~/images/join.gif" />
                             </div>
                         </div>
-                    </div>
+                    </div>*@
                     <div class="bottom_left_box"> </div>
                 </div>
                 <div class="left_box">
