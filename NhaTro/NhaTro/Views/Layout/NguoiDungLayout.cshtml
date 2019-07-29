@@ -61,7 +61,9 @@
                                 {
                                     @Html.TextBox("txtTimKiem", "", htmlAttributes: new { @class = "TextboxTimKiem", @placeholder = "Nhập vào từ khoá cần tìm..." })
                                     <div id="imgTimKiem">
-                                        <button type="submit"><img src="~/images/find.gif"/></button>
+                                        <div style="float:right; padding:10px 25px 0 0;">
+                                            <input type="image" src="~/images/find.gif" />
+                                        </div>
                                     </div>
                                 }
                                 
@@ -81,7 +83,7 @@
                     <div class="bottom_left_box"> </div>
                 </div>
                 <div class="left_box">
-                    <div class="top_left_box"> </div>
+                    @*<div class="top_left_box"> </div>
                     <div class="center_left_box">
                         <div class="box_title"><span>Join</span> our newsletter:</div>
                         <div class="form">
@@ -93,7 +95,7 @@
                                 <input type="image" src="~/images/join.gif" />
                             </div>
                         </div>
-                    </div>
+                    </div>*@
                     <div class="bottom_left_box"> </div>
                 </div>
                 <div class="left_box">

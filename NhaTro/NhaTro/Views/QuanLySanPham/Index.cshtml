@@ -1,4 +1,6 @@
-﻿@model IEnumerable<NhaTro.Models.BaiDang>
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.PagedList<NhaTro.Models.BaiDang>
 
 @{
     ViewBag.Title = "Index";
@@ -13,28 +15,28 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.QuanHuyen.TenQH)
+            @Html.DisplayNameFor(model => model.First().QuanHuyen.TenQH)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.TinhTP.TenTTP)
+            @Html.DisplayNameFor(model => model.First().TinhTP.TenTTP)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.TieuDe)
+            @Html.DisplayNameFor(model => model.First().TieuDe)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Gia)
+            @Html.DisplayNameFor(model => model.First().Gia)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.AnhBia)
+            @Html.DisplayNameFor(model => model.First().AnhBia)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DiaChi)
+            @Html.DisplayNameFor(model => model.First().DiaChi)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.SDT)
+            @Html.DisplayNameFor(model => model.First().SDT)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Moi)
+            @Html.DisplayNameFor(model => model.First().Moi)
         </th>
         <th></th>
     </tr>
@@ -74,3 +76,15 @@
 }
 
 </table>
+<div class="trang">
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+</div>
+<div class="pagination">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>
+<style>
+    .pagination li {
+        display: inline;
+    }
+</style>
+

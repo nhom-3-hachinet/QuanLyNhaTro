@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using NhaTro.Models;
+using PagedList;
+using PagedList.Mvc;
 
 namespace NhaTro.Controllers
 {
@@ -11,9 +13,11 @@ namespace NhaTro.Controllers
     {
         // GET: QuanLySanPham
         QuanLyNhaTroDbContext db = new QuanLyNhaTroDbContext();
-        public ActionResult Index()
+        public ActionResult Index(int ? page)
         {
-            return View(db.BaiDangs.ToList());
+            int pageSize = 6;
+            int pageNumber = (page ?? 1);
+            return View(db.BaiDangs.ToList().OrderBy(n=>n.Gia).ToPagedList(pageNumber,pageSize));
         }
 
         public ActionResult ThemMoi()
